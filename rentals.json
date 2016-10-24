@@ -16,5 +16,14 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }],
+  "announcements": [{
+    "author": "johnny",
+    "title": "Pool Rules",
+    "body": "1.No peeing, 2.No pooping"
+  }, {
+    "author": "johnny",
+    "title": "Pool Rules pt2",
+    "body": "1.No swimming within 2 hours of having diarrhea"
   }]
 }
