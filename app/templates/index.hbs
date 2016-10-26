@@ -9,6 +9,18 @@ We hope you find exactly what you're looking for in a place to stay.
   {{/each}}
 </ul>
 
+<h2> All Reviews </h2>
+
+<ul>
+  {{#each model.reviews as |review|}}
+    <li>{{review.rating}} - {{review.content}} - by {{review.author}}</li>
+  {{/each}}
+</ul>
+
+{{new-review saveReview="saveReview"}}
+
+<hr>
+
 {{new-rental saveRental2="saveRental3"}}
 
 {{#link-to 'announcement'}} ANNOUNCEMENTS! {{/link-to}}
